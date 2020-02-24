@@ -3,14 +3,38 @@
   height: 62px;
   width: 100%;
   left: 0px;
-  top: 0px;
+  margin: 0 auto;
   z-index: 10;
-  background: #eb5757;
-  display: grid;
-  grid-template-columns: 70% 30%;
+  background: #e73361;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-size: 26px;
 }
 
-.logo {
+.submenu {
+  height: 62px;
+  width: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submenu:hover {
+  height: 62px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: auto;
+  color: #e73361;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+. .logo {
   display: flex;
   justify-content: center;
   align-items: center;

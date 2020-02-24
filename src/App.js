@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="homepage">
       <div className="div1">
-        <div className="logo"></div>
+        <Navbar />
       </div>
       <div className="div2">
         <img className="imagediv2" src={photodiv2}></img>
