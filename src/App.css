@@ -74,6 +74,9 @@
 }
 .button1 {
   position: absolute;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
   margin: 0 30px;
   display: flex;
   justify-content: center;
@@ -82,11 +85,18 @@
   width: 148px;
   height: 39px;
   top: 450px;
+  color: #faf0f0;
   background: #e73361;
   border-radius: 5px;
 }
+.textbutton1:hover {
+  color: #e73361;
+}
 .button1:hover {
   position: absolute;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
   margin: 0 30px;
   display: flex;
   justify-content: center;
@@ -96,11 +106,18 @@
   height: 39px;
   top: 450px;
   color: #e73361;
-  background: #white;
+  background: white;
   border-radius: 5px;
 }
+.textbutton2:hover {
+  color: #e73361;
+}
+
 .button2 {
   position: absolute;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
   display: flex;
   margin: 0 200px;
   justify-content: center;
@@ -110,10 +127,14 @@
   height: 39px;
   top: 450px;
   background: #e73361;
+  color: #faf0f0;
   border-radius: 5px;
 }
 .button2:hover {
   position: absolute;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
   display: flex;
   margin: 0 200px;
   justify-content: center;
@@ -123,7 +144,7 @@
   height: 39px;
   top: 450px;
   color: #e73361;
-  background: #white;
+  background: white;
   border-radius: 5px;
 }
 .textbutton1 {
@@ -189,7 +210,7 @@
   color: white;
 }
 
-.carousel {
+.carouselll {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -224,10 +245,27 @@
 
 .button3 {
   position: absolute;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
   top: 450px;
   width: 244px;
   height: 41px;
   background: #e73361;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #faf0f0;
+}
+.button3:hover {
+  position: absolute;
+  top: 450px;
+  width: 244px;
+  height: 41px;
+  background: white;
+  color: #e73361;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   display: flex;

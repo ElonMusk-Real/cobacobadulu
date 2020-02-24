@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
 import Scroll from "./Components/Scroll/Scroll.js";
 import Carousell from "./Components/Carousel/Carousell.js";
@@ -28,12 +29,8 @@ function App() {
         <img className="imagediv2" src={photodiv2}></img>
         <p className="textdiv2">Pesan snackbox sekarang!</p>
         <div className="buttonwrapper">
-          <div className="button1">
-            <p className="textbutton1">REGISTER</p>
-          </div>
-          <div className="button2">
-            <p className="textbutton2">LOG IN</p>
-          </div>
+          <a className="button1">REGISTER</a>
+          <a className="button2">LOG IN</a>
         </div>
       </div>
       <div className="div3">
@@ -44,14 +41,12 @@ function App() {
       </div>
       <div className="div4">
         <p className="juduldiv4">How To Order</p>
-        <Carousell className="carousel" />
+        <Carousell className="carouselll" />
       </div>
       <div className="div5">
         <p className="juduldiv5">Our Products</p>
-        <Carousell2 className="carousel" />
-        <div className="button3">
-          <p className="textbutton3">Order Now!</p>
-        </div>
+        <Carousell2 className="carouselll" />
+        <div className="button3">Order Now!</div>
       </div>
       <div className="div6">
         <p className="juduldiv6">FAQs</p>
@@ -62,7 +57,7 @@ function App() {
       </div>
       <div className="div7">
         <p className="juduldiv7">Testimonials</p>
-        <Carousell3 className="carousel" />
+        <Carousell3 className="carouselll" />
       </div>
       <div className="div8">
         <div className="about">
@@ -76,13 +71,22 @@ function App() {
         </div>
         <div className="socmed">
           <div className="socmedig">
-            <img src={socmed1}></img>
+            <a href="https://www.instagram.com/natadanus/" className="socmedig">
+              <img src={socmed1}></img>
+            </a>
           </div>
           <div className="socmedline">
-            <img src={socmed2}></img>
+            <a href="line://ti/p/@natadanus" className="socmedline">
+              <img src={socmed2}></img>
+            </a>
           </div>
           <div className="socmedwhatsapp">
-            <img src={socmed3}></img>
+            <a
+              href="https://api.whatsapp.com/send?phone=+628561793835"
+              className="socmedwhatsapp"
+            >
+              <img src={socmed3}></img>
+            </a>
           </div>
         </div>
         <div className="copyright">
@@ -99,5 +103,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

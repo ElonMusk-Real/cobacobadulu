@@ -1,0 +1,11 @@
+  
+  .carousel-cell2 {
+    width: 50%;
+    height: 327px;
+    background: white;
+    border-radius: 5px;
+    counter-increment: carousel-cell2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

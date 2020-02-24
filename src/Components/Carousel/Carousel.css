@@ -45,3 +45,24 @@
   border-radius: 0;
   background-color: white;
 }
+
+.carousel-cell2 {
+  width: 50%;
+  height: 327px;
+  background: white;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* cell number */
+.carousel-cell2:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell2);
+  line-height: 200px;
+  font-size: 80px;
+  color: rgb(155, 55, 55);
+}
