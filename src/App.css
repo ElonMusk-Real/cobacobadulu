@@ -3,12 +3,15 @@
   background-color: #faf0f0;
   height: 4650px;
   font-family: "Roboto Slab";
+  position: absolute;
+  justify-content: center;
+
   /*grid-template-rows: 62px 750px 1095px 618px 521px 750px 650px 264px;*/
 }
 
 .div1 {
   position: fixed;
-  display: grid;
+  display: flex;
   grid-template-columns: 70% 30%;
   height: 62px;
   width: 100%;
@@ -35,7 +38,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  top: 60px;
+  top: 52px;
   left: 0px;
   height: 750px;
   width: 100%;
