@@ -14,7 +14,7 @@ const useStyles = makeStyles(theme => ({
 }));
 
 const styles = {
-  marginTop: "25px",
+  marginTop: "20px",
   width: "350px",
   color: "#6c676c"
 };
@@ -67,8 +67,8 @@ export default function ControlledExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <p>
-            Kamu bisa daftar terlebih dahulu menjadi user, kemudian ikuti alur transaksi
-            yang tersedia, setelah itu ambil box di jam dan tempat
+            Kamu bisa daftar terlebih dahulu menjadi user, kemudian ikuti alur
+            transaksi yang tersedia, setelah itu ambil box di jam dan tempat
             yang sudah ditentukan.
           </p>
         </ExpansionPanelDetails>
