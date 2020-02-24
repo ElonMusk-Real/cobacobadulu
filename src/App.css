@@ -1,38 +1,422 @@
-.App {
-  text-align: center;
+.homepage {
+  width: 100%;
+  background-color: #faf0f0;
+  height: 4650px;
+  font-family: "Roboto Slab";
+  /*grid-template-rows: 62px 750px 1095px 618px 521px 750px 650px 264px;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.div1 {
+  position: fixed;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  height: 62px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 5;
+  background: #eb5757;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  z-index: 11;
+  grid-column: 2/3;
+}
+
+.gambarlogo {
+  margin: 0 auto;
+  z-index: 11;
+}
+
+.div2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 60px;
+  left: 0px;
+  height: 750px;
+  width: 100%;
+  z-index: 2;
+}
+
+.imagediv2 {
+  position: absolute;
+  margin: 0 auto;
+}
+
+.textdiv2 {
+  position: relative;
+  z-index: 3;
+  width: 316px;
+  height: 10px;
+  top: 200px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 66px;
+  line-height: 87px;
+  display: flex;
+  align-items: center;
+  color: #faf0f0;
+}
+.buttonwrapper {
+  position: absolute;
+  z-index: 3;
+  height: 39px;
+  width: 375px;
+  display: inline-block;
+  justify-content: center;
+}
+.button1 {
+  position: absolute;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  width: 148px;
+  height: 39px;
+  top: 450px;
+  background: #eb5757;
+  border-radius: 5px;
+}
+.button2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  width: 148px;
+  height: 39px;
+  top: 450px;
+  background: #eb5757;
+  border-radius: 5px;
+}
+.textbutton1 {
+  color: #faf0f0;
+}
+.textbutton2 {
+  color: #faf0f0;
+}
+
+.div3 {
+  position: absolute;
+  z-index: 2;
+  top: 812px;
+  height: 1095px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.juduldiv3 {
+  position: absolute;
+  width: 316px;
+  height: 182px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #6c676c;
+  justify-content: center;
+}
+.scroll {
+  position: absolute;
+  top: 100px;
+}
+
+.div4 {
+  position: absolute;
+  z-index: 2;
+  top: 1907px;
+  left: 0px;
+  height: 618px;
+  width: 100%;
+  background: #eb5757;
+  display: flex;
+  justify-content: center;
+}
+
+.juduldiv4 {
+  position: absolute;
+  width: 316px;
+  height: 182px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div5 {
+  position: absolute;
+  z-index: 2;
+  top: 2525px;
+  left: 0px;
+  height: 521px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.juduldiv5 {
+  position: absolute;
+  width: 316px;
+  height: 182px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #6c676c;
+}
+
+.button3 {
+  position: absolute;
+  top: 450px;
+  width: 244px;
+  height: 41px;
+  background: #eb5757;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textbutton3 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #faf0f0;
+  color: #faf0f0;
+}
+.div6 {
+  position: absolute;
+  z-index: 2;
+  top: 3046px;
+  height: 750px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.juduldiv6 {
+  position: absolute;
+  z-index: 3;
+  top: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: white;
+}
+
+.imagediv6 {
+  position: absolute;
+  margin: 0 auto;
+}
+
+.collapse {
+  position: absolute;
+  top: 100px;
+  justify-content: center;
+}
+
+.div7 {
+  position: absolute;
+  z-index: 2;
+  top: 3796px;
+  left: 0px;
+  height: 650px;
+  width: 100%;
+  background: #eb5757;
+  display: flex;
+  justify-content: center;
+}
+
+.juduldiv7 {
+  position: absolute;
+  z-index: 3;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  align-items: center;
+  text-align: center;
+  text-decoration-line: underline;
+  color: white;
+}
+
+.div8 {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  top: 4446px;
+  left: 0px;
+  height: 590px;
+  width: 100%;
+  background: #faf0f0;
+}
+
+.about {
+  position: absolute;
+  z-index: 3;
+  top: 231px;
+  height: 29px;
+  width: 100%;
+  background: #eb5757;
+  margin: 2px auto;
+  color: #faf0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.joinus {
+  position: absolute;
+  z-index: 3;
+  top: 262px;
+  height: 29px;
+  width: 100%;
+  background: #eb5757;
+  margin: 2px auto;
+  color: #faf0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  position: absolute;
+  z-index: 3;
+  top: 293px;
+  height: 29px;
+  width: 100%;
+  background: #eb5757;
+  margin: 2px auto;
+  color: #faf0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socmed {
+  position: absolute;
+  z-index: 3;
+  top: 330px;
+  height: 52px;
+  width: 100%;
+  background: #faf0f0;
+  margin: 2px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.socmedig {
+  z-index: 3;
+  height: 52px;
+  width: 52px;
+  background: #eb5757;
+  margin: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socmedline {
+  z-index: 3;
+  height: 52px;
+  width: 52px;
+  background: #eb5757;
+  margin: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socmedwhatsapp {
+  z-index: 3;
+  height: 52px;
+  width: 52px;
+  background: #eb5757;
+  margin: 0px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  position: absolute;
+  z-index: 3;
+  top: 450px;
+  height: 10px;
+  font-size: 10px;
+  width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.madewith {
+  z-index: 3;
+  height: 10px;
+  margin: 0px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6c676c;
+}
+
+.fromnatadanus {
+  z-index: 3;
+  height: 10px;
+  margin: 0px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6c676c;
+}
+
+.copyicon {
+  z-index: 3;
+  height: 10px;
+  margin: 0px 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.love {
+  z-index: 3;
+  height: 10px;
+  margin: 0px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

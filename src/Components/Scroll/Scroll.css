@@ -1,0 +1,70 @@
+.coba {
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contoh {
+  display: grid;
+  grid-template-rows: 40% 60%;
+  text-align: center;
+  width: 297px;
+  height: 297px;
+  background: #ffffff;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  margin: 30px;
+}
+
+.icon {
+  grid-row: 1/2;
+  text-decoration: underline;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.checklist {
+}
+
+.text {
+  display: block;
+  grid-row: 2/3;
+}
+
+.line {
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 258px;
+  height: 0px;
+  border: 3px solid #d97b7b;
+}
+
+.judul {
+  margin: 10px auto;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #6c676c;
+}
+
+.teks {
+  width: 255px;
+  height: 108px;
+  margin: 5px auto;
+  text-align: left;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  justify-content: center;
+  color: #6c676c;
+}

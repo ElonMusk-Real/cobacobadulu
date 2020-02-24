@@ -1,0 +1,8 @@
+.kolaps {
+  display: flex;
+  justify-content: center;
+}
+
+.kolapspanel {
+  margin: 0 auto;
+}
