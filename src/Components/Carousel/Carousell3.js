@@ -17,15 +17,12 @@ function Carousell3() {
         width: 80%;
         height: 327px;
       `}
-      className="main-carousel"
-      data-flickity='{ "autoPlay": true, "draggable": false, "wrapAround": true, "prevNextButtons": false, "fade": true, "lazyLoad": true}'
+      className="main-carousel3"
+      data-flickity='{ "autoPlay": true, "draggable": false, "wrapAround": true, "prevNextButtons": true, "pageDots": false, "fade": true, "lazyLoad": true}'
     >
-      <div className="carousel-cell"></div>
-      <div className="carousel-cell"></div>
-      <div className="carousel-cell"></div>
-      <div className="carousel-cell"></div>
-      <div className="carousel-cell"></div>
-      <div className="carousel-cell"></div>
+      <div className="carousel-cell3"></div>
+      <div className="carousel-cell3"></div>
+      <div className="carousel-cell3"></div>
     </div>
   );
 }

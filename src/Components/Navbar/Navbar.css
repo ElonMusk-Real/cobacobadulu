@@ -34,15 +34,7 @@
   align-items: center;
 }
 
-. .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 11;
-  grid-column: 2/3;
-}
-
-.gambarlogo {
-  margin: 0 auto;
-  z-index: 11;
+.logo {
+  margin-left: 50px;
+  margin-right: auto;
 }

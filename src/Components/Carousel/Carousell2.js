@@ -4,7 +4,7 @@ import "./Carousell2.css";
 function Carousell2() {
   return (
     <div
-      className="main-carousel"
+      className="main-carousel2"
       data-flickity='{"autoPlay": true, "wrapAround": true, "freeScroll": true, "prevNextButtons": false,
       "pageDots": false}'
     >
