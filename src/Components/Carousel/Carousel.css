@@ -9,12 +9,12 @@
   border-radius: 5px;
   margin: auto auto;
   z-index: 5;
-  width: 327px;
+  width: 95%;
   height: 327px;
 }
 
 .carousel-cell {
-  width: 327px;
+  width: 100%;
   height: 327px;
   border-radius: 5px;
   background: #faf0f0;
