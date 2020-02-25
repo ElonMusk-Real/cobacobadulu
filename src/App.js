@@ -57,7 +57,7 @@ function App() {
       </div>
       <div className="div7">
         <p className="juduldiv7">Testimonials</p>
-        <Carousell3 className="carouselll" />
+        <Carousell3 className="carousellll3" />
       </div>
       <div className="div8">
         <div className="about">

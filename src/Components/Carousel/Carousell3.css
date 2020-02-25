@@ -4,14 +4,15 @@
   margin: auto auto;
   z-index: 5;
   width: 100%;
-  height: 327px;
+  height: 490px;
 }
 
 .carousel-cell3 {
-  width:375px;
-  height: 327px;
+  width: 375px;
+  height: 490px;
+  margin: auto 30%;
   border-radius: 5px;
-  background: #e73361;
+  background: white;
   counter-increment: carousel-cell3;
   display: flex;
   align-items: center;
@@ -50,5 +51,5 @@
 }
 
 .flickity-button:hover {
-    background: transparent;
-  }
+  background: transparent;
+}
