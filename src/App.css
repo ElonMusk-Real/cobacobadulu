@@ -347,7 +347,7 @@
   align-items: center;
   text-align: center;
   text-decoration-line: underline;
-  color: white;
+  color: #faf0f0;
 }
 
 .div8 {
@@ -382,7 +382,7 @@
   top: 231px;
   height: 29px;
   width: 100%;
-  background: white;
+  background: #faf0f0;
   margin: 2px auto;
   color: #e73361;
   display: flex;

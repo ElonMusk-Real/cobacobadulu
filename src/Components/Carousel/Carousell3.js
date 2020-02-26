@@ -20,9 +20,11 @@ function Carousell3() {
       className="main-carousel3"
       data-flickity='{ "autoPlay": true, "draggable": false, "wrapAround": true, "prevNextButtons": true, "pageDots": false, "fade": true, "lazyLoad": true}'
     >
-      <div className="carousel-cell3"></div>
-      <div className="carousel-cell3"></div>
-      <div className="carousel-cell3"></div>
+      <div className="carousel-cell3">
+        <a>asdasd</a>
+      </div>
+      <div className="carousel-cell3"><a>asdasd</a></div>
+      <div className="carousel-cell3"><a>asdasd</a></div>
     </div>
   );
 }

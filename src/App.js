@@ -4,7 +4,7 @@ import "./App.css";
 import Scroll from "./Components/Scroll/Scroll.js";
 import Carousell from "./Components/Carousel/Carousell.js";
 import Carousell2 from "./Components/Carousel/Carousell2.js";
-import Carousell3 from "./Components/Carousel/Carousell3.js";
+import Carousell4 from "./Components/Carousel/Carousell4.js";
 import GridList from "./Components/GridList/GridList.js";
 import Navbar from "./Components/Navbar/Navbar.js";
 import Homepage from "./Components/Homepage/Homepage.js";
@@ -57,7 +57,7 @@ function App() {
       </div>
       <div className="div7">
         <p className="juduldiv7">Testimonials</p>
-        <Carousell3 className="carousellll3" />
+        <Carousell4 className="carousellll3" />
       </div>
       <div className="div8">
         <div className="about">
@@ -103,4 +103,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default App;    
