@@ -20,19 +20,25 @@
   background: #faf0f0;
   counter-increment: carousel-cell;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: rgb(155, 55, 55);
+.immg {
+  position: absolute;
+  top: 25px;
 }
+
+.illustext {
+  position: absolute;
+  width: 90%;
+  top: 240px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  color: #6c676c;
+}
+
+/* cell number */
 
 /* position dots up a bit */
 .flickity-page-dots {
@@ -56,14 +62,4 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-/* cell number */
-.carousel-cell2:before {
-  display: block;
-  text-align: center;
-  content: counter(carousel-cell2);
-  line-height: 200px;
-  font-size: 80px;
-  color: rgb(155, 55, 55);
 }

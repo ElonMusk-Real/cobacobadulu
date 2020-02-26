@@ -47,13 +47,14 @@ export default class Carousell4 extends Component {
       dots: false,
       fade: true,
       infinite: true,
-      speed: 500,
+      speed: 1500,
       slidesToShow: 1,
       slidesToScroll: 1
     };
     return (
       <Slider {...settings} style={styles}>
         <div style={styless}>
+          <div className="photo"></div>
           <a style={stylesss}>
             Natadanus inovatif banget! Semua organisasi dan kepanitian di 4500
             perguruan tinggi harus banget coba sih..
@@ -62,11 +63,16 @@ export default class Carousell4 extends Component {
           <a style={stylessss}>-Full time danuser</a>
         </div>
         <div style={styless}>
-          <a style={stylesss}>Nyesel baru tau natadanus akhir akhir ini huhu pokonya bersyukur banget bisa bermitra sama natadanus. Oke oce pokonya.</a>
+          <div className="photo"></div>
+          <a style={stylesss}>
+            Nyesel baru tau natadanus akhir akhir ini huhu bersyukur banget bisa
+            bermitra sama natadanus. Oke oce pokonya.
+          </a>
           <br></br>
           <a style={stylessss}>-Penjual Basreng</a>
         </div>
         <div style={styless}>
+          <div className="photo"></div>
           <a style={stylesss}>
             Awalnya mikir apa ya yang bisa bikin danusan gua makin efektif.
             Ketemu natadanus langsung suka banget sama fitur-fiturnya dan

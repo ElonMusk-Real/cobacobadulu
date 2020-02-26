@@ -92,8 +92,8 @@ export default function ControlledExpansionPanels() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <p>
-            Kamu tidak perlu menunggu atau bertemu dengan seller karena kami
-            sudah menyediakan destination point untuk seller menaruh box.
+            Kamu tidak perlu bertemu dengan seller karena kami
+            sudah menyediakan destination point untuk seller menaruh box tanpa melakukan pertemuan.
           </p>
         </ExpansionPanelDetails>
       </ExpansionPanel>

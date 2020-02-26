@@ -17,7 +17,6 @@ import socmed2 from "./Components/Assets/2.svg";
 import socmed3 from "./Components/Assets/3.svg";
 import copy from "./Components/Assets/copy.svg";
 import love from "./Components/Assets/love.svg";
-import logo from "./Components/Assets/natadanusnavbar.png";
 
 function App() {
   return (

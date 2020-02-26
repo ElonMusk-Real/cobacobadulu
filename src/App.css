@@ -356,7 +356,7 @@
   z-index: 2;
   top: 4446px;
   left: 0px;
-  height: 490px;
+  height: 390px;
   width: 100%;
   background: #faf0f0;
   font-weight: bold;
@@ -365,7 +365,7 @@
 .about {
   position: absolute;
   z-index: 3;
-  top: 231px;
+  top: 131px;
   height: 29px;
   width: 100%;
   background: #e73361;
@@ -379,7 +379,7 @@
 .about:hover {
   position: absolute;
   z-index: 3;
-  top: 231px;
+  top: 131px;
   height: 29px;
   width: 100%;
   background: #faf0f0;
@@ -393,7 +393,7 @@
 .joinus {
   position: absolute;
   z-index: 3;
-  top: 262px;
+  top: 162px;
   height: 29px;
   width: 100%;
   background: #e73361;
@@ -407,7 +407,7 @@
 .joinus:hover {
   position: absolute;
   z-index: 3;
-  top: 262px;
+  top: 162px;
   height: 29px;
   width: 100%;
   background: #faf0f0;
@@ -421,7 +421,7 @@
 .contact {
   position: absolute;
   z-index: 3;
-  top: 293px;
+  top: 193px;
   height: 29px;
   width: 100%;
   background: #e73361;
@@ -435,7 +435,7 @@
 .contact:hover {
   position: absolute;
   z-index: 3;
-  top: 293px;
+  top: 193px;
   height: 29px;
   width: 100%;
   background: #faf0f0;
@@ -449,7 +449,7 @@
 .socmed {
   position: absolute;
   z-index: 3;
-  top: 330px;
+  top: 230px;
   height: 52px;
   width: 100%;
   background: #faf0f0;
@@ -492,7 +492,7 @@
 .copyright {
   position: absolute;
   z-index: 3;
-  top: 450px;
+  top: 350px;
   height: 10px;
   font-size: 10px;
   width: 100%;
